@@ -22,8 +22,8 @@ module.exports = {
       black: '#000',
       white: '#fff',
       green: '#014235',
-      blue: '#324158',
-      beige: '#FAF5EB'
+      beige: '#FAF5EB',
+      blue: '#09f'
     }
   },
   plugins: []

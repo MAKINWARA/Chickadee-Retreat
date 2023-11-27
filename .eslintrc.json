@@ -1,0 +1,7 @@
+{
+    "extends": "next/core-web-vitals",
+    "rules": {
+        "space-before-function-paren": "off",
+        "@next/next/no-img-element": "off"
+    }
+}

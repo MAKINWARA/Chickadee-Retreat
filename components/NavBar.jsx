@@ -11,10 +11,10 @@ const routes = [
     name: 'Gallery',
     route: '/gallery'
   },
-  {
-    name: 'Videos',
-    route: '/videos'
-  },
+  //   {
+  //     name: 'Videos',
+  //     route: '/videos'
+  //   },
   {
     name: 'Book Now',
     route: '/book-now'
@@ -23,10 +23,10 @@ const routes = [
 
 export default function NavBar() {
   return (
-    <nav className='flex gap-10'>
-      {routes.map((link) => {
-        return (
-          <ul>
+    <nav>
+      <ul className='flex gap-10'>
+        {routes.map((link) => {
+          return (
             <li key={link.name}>
               <Link
                 className='text-white text-2xl'
@@ -36,9 +36,9 @@ export default function NavBar() {
                 {link.name}
               </Link>
             </li>
-          </ul>
-        )
-      })}
+          )
+        })}
+      </ul>
     </nav>
   )
 }

@@ -1,0 +1,46 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./styles/gallery.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.gallery_gallery__header__FpHYq {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 3rem auto;
+  font-size: 2rem;
+}
+
+@media (width >= 600px) {
+  .gallery_gallery__margin__AuQdP {
+    width: 85%;
+    margin: 0 auto;
+
+    padding: 40 0px;
+  }
+
+  .gallery_gallery__grid__K0ORY {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .gallery_gallery__image__XO58t {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .gallery_gallery__image__container__0B4YO:nth-child(4) {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  .gallery_gallery__image__container__0B4YO:nth-child(5) {
+    grid-column: span 2;
+  }
+
+  .gallery_gallery__image__container__0B4YO:nth-child(8) {
+    grid-column: span 2;
+  }
+}
+
