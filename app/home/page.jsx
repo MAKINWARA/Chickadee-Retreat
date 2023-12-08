@@ -2,6 +2,7 @@
 import HomeSlide from '@/components/HomeSlide'
 import { homeImages } from '@/mocks/home__images'
 import BookingCard from '@/components/BookingCard'
+import Banner from '@/components/Banner'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
           className='w-screen'
         />
       </figure>
+      <Banner />
     </div>
   )
 }

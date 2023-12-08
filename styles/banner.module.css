@@ -1,0 +1,40 @@
+.container {
+  padding: 3rem 0;
+  background-color: var(--text--green);
+  width: 100vw;
+  color: var(--text--quotes);
+  display: flex;
+  align-items: center;
+}
+
+.margin {
+  width: 85%;
+  max-width: 730px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote {
+  font-size: 1.25rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.guest {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.button {
+  padding: 0.5rem 1.5rem;
+  background-color: #35685e;
+}
+
+@media (width >= 1024px) {
+  .quotes__container {
+    min-height: 230px;
+  }
+}

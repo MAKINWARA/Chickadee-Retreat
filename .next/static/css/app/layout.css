@@ -551,6 +551,9 @@ video {
 .grid {
   display: grid;
 }
+.hidden {
+  display: none;
+}
 .h-8 {
   height: 2rem;
 }
@@ -703,6 +706,7 @@ video {
   --text-description: #858f85;
   --text-location: #1d2927;
   --text--green: #014235;
+  --text--quotes: #b1bfb2;
 }
 
 @media (prefers-color-scheme: dark) {

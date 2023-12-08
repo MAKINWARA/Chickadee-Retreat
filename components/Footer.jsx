@@ -4,16 +4,28 @@ export default function Footer() {
   return (
     <footer className='bg-white flex flex-col items-center gap-6 p-16'>
       <div className='flex justify-between w-[15%] min-w-[200px] mb-4 text-black'>
-        <a href='https://www.instagram.com/chickadeeretreat/'>
+        <a
+          href='https://www.instagram.com/chickadeeretreat/'
+          target='_blank'
+        >
           <FaInstagram className='w-full h-8' />
         </a>
-        <a href='https://www.facebook.com/profile.php?id=61550637894988'>
+        <a
+          href='https://www.facebook.com/profile.php?id=61550637894988'
+          target='_blank'
+        >
           <FaFacebook className='w-full h-8' />
         </a>
-        <a href='https://www.tiktok.com/@chickadeeretreat'>
+        <a
+          href='https://www.tiktok.com/@chickadeeretreat'
+          target='_blank'
+        >
           <FaTiktok className='w-full h-8' />
         </a>
-        <a href='https://youtube.com/@ChickadeeRetreats?si=9y_Bmdf6UXQgsibe'>
+        <a
+          href='https://youtube.com/@ChickadeeRetreats?si=9y_Bmdf6UXQgsibe'
+          target='_blank'
+        >
           <FaYoutube className='w-full h-8' />
         </a>
       </div>

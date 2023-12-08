@@ -1,3 +1,47 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./styles/banner.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+.banner_container__qkr1e {
+  padding: 3rem 0;
+  background-color: var(--text--green);
+  width: 100vw;
+  color: var(--text--quotes);
+  display: flex;
+  align-items: center;
+}
+
+.banner_margin__BwFHu {
+  width: 85%;
+  max-width: 730px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner_quote__Md3Yo {
+  font-size: 1.25rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.banner_guest__9UOlg {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.banner_button___DlU6 {
+  padding: 0.5rem 1.5rem;
+  background-color: #35685e;
+}
+
+@media (width >= 1024px) {
+  .banner_quotes__container__rGZSp {
+    min-height: 230px;
+  }
+}
+
 /*!******************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./styles/HomeSlide.css ***!
   \******************************************************************************************************************************************************************************************************************************************************************/
