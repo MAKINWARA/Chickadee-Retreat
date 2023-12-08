@@ -10,12 +10,13 @@ export default function Home() {
         Welcome to Chickadee Retreat
       </h1>
       <HomeSlide images={homeImages} />
-      <h1 className='py-20 text-5xl'>Locations</h1>
+      <h1 className='py-20 text-3xl lg:text-5xl'>Locations</h1>
       <BookingCard />
-      <figure className='w-screen'>
+      <figure>
         <img
           src='https://static.wixstatic.com/media/d6b9d4_0d03b1923ad24ab781ab4d529aa68979~mv2.png/v1/fill/w_2000,h_666,al_c,q_90,enc_auto/d6b9d4_0d03b1923ad24ab781ab4d529aa68979~mv2.png'
           alt='forest'
+          className='w-screen'
         />
       </figure>
     </div>

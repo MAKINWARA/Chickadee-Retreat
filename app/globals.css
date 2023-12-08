@@ -11,6 +11,7 @@
   --article-background: #fffdf7;
   --text-description: #858f85;
   --text-location: #1d2927;
+  --text--green: #014235;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -43,4 +44,14 @@ a {
 .lato {
   font-family: var(--font-lato);
   font-weight: 300;
+}
+
+p {
+  font-size: 1rem;
+}
+
+@media (width <= 600px) {
+  :root {
+    font-size: 12px;
+  }
 }

@@ -69,3 +69,83 @@
   }
 }
 
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./styles/bookingCard.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.bookingCard_container__iOb0x {
+  padding-bottom: 5rem;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.bookingCard_card__tCwLK {
+  display: flex;
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04))
+    drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  max-width: 625px;
+  margin: 0 auto;
+}
+
+.bookingCard_img__8CB12 {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.bookingCard_img__container__aC2df {
+  width: 100%;
+}
+
+.bookingCard_aside__container__pz4MC {
+  color: var(--text-description);
+  background-color: #fff;
+  width: 100%;
+  padding: 2rem;
+}
+
+.bookingCard_aside__location__ZSZPO {
+  font-family: var(--font-lato);
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.bookingCard_aside__header__QqvKq {
+  font-size: 1.125rem;
+}
+
+.bookingCard_aside__button__G51k3 {
+  padding: 0.5rem 2rem;
+  color: #fff;
+  background-color: var(--text--green);
+  font-family: var(--font-lato);
+}
+
+.bookingCard_aside__description__knjoX {
+  margin-bottom: 2rem;
+  max-width: 200px;
+}
+
+@media (width >= 1200px) {
+  .bookingCard_container__iOb0x {
+    flex-direction: row;
+  }
+
+  .bookingCard_aside__container__pz4MC {
+    padding: 2rem;
+  }
+}
+
+@media (width >= 1300px) {
+  .bookingCard_aside__container__pz4MC {
+    padding: 3rem;
+  }
+
+  .bookingCard_card__tCwLK {
+    max-width: 100%;
+  }
+}
+

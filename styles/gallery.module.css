@@ -4,6 +4,12 @@
   font-size: 2rem;
 }
 
+.gallery__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 @media (width >= 600px) {
   .gallery__margin {
     width: 85%;
@@ -17,12 +23,6 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 1rem;
-  }
-
-  .gallery__image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
   }
 
   .gallery__image__container:nth-child(4) {

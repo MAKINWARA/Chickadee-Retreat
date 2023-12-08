@@ -1,9 +1,10 @@
+import styles from '@/styles/bookingCard.module.css'
+
 const houses = [
   {
     name: 'Chickadee Chalet',
     location: 'Alpine Lake, West Virginia',
-    description: `Cozy Family Cabin, 
-  sleeps up to 12`,
+    description: `Cozy Family Cabin, sleeps up to 12`,
     image:
       'https://static.wixstatic.com/media/d6b9d4_5cc7136e649c49958010e78d32f4103c~mv2.jpg/v1/fill/w_478,h_380,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d6b9d4_5cc7136e649c49958010e78d32f4103c~mv2.jpg',
     url: 'https://www.airbnb.com/rooms/49441749?check_in=2023-01-08&check_out=2023-01-13&guests=1&adults=10&s=67&unique_share_id=171e031f-3969-41c1-9017-6078e9fedcd5&source_impression_id=p3_1694902624_nt0Pi1gIsbulptKD'
@@ -21,37 +22,35 @@ const houses = [
 
 export default function BookingCard() {
   return (
-    <div className='flex justify-evenly flex-wrap mb-16 w-full'>
+    <div className={styles.container}>
       {houses.map((house) => {
         return (
           <article
             key={house.name}
-            className='flex items-center w-[40%] bg-[var(--article-background)] text-black drop-shadow-lg'
+            className={styles.card}
           >
-            <figure className='w-full h-full static'>
+            <figure className={styles.img__container}>
               <img
                 src={house.image}
                 alt={house.description}
-                className='h-full w-full object-cover'
+                className={styles.img}
               />
             </figure>
-            <aside className='p-16'>
+            <aside className={styles.aside__container}>
               <div>
-                <p className='whitespace-nowrap mb-6 text-[var(--text-location)] text-lg lato'>
-                  {house.location}
-                </p>
-                <h4 className='text-xl whitespace-nowrap'>{house.name}</h4>
-                <p className='text-[var(--text-description)] whitespace-pre text-lg'>
-                  {house.description}
-                </p>
-                <a
-                  href={house.url}
-                  target='_blank'
-                  rel='noreferrer'
-                  className='flex justify-center items-center mt-6 w-36 h-10 bg-[var(--headers-hex)] text-white'
-                >
-                  Book Now
-                </a>
+                <p className={styles.aside__location}>{house.location}</p>
+                <h4 className={styles.aside__header}>{house.name}</h4>
+                <p className={styles.aside__description}>{house.description}</p>
+                <div>
+                  <a
+                    href={house.url}
+                    target='_blank'
+                    rel='noreferrer'
+                    className={styles.aside__button}
+                  >
+                    Book Now
+                  </a>
+                </div>
               </div>
             </aside>
           </article>
