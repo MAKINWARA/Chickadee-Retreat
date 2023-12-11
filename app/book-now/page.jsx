@@ -1,5 +1,10 @@
 import { bookDescription } from '@/mocks/houseDescription'
 
+export const metadata = {
+  title: 'Book Now | Chickadee Retreat',
+  description: 'Discover tranquility. Book Chickadee Retreats for an exclusive stay in the Brookside Suite. Unwind and embrace nature`s beauty. Book now for a serene escape.',
+  }
+
 export default function BookNow() {
   return (
     <section className='grid lg:grid-cols-2 gap-28 w-[85%] mx-auto my-20'>

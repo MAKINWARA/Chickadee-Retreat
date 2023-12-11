@@ -3,6 +3,11 @@ import HomeSlide from '@/components/HomeSlide'
 import { homeImages } from '@/mocks/home__images'
 import BookingCard from '@/components/BookingCard'
 
+export const metadata = {
+  title: 'Home | Chickadee Retreat',
+  description: 'Discover tranquility at Home Chickadee Retreat. Our cozy haven offers a perfect blend of comfort and nature. Book now for a rejuvenating escape!',
+  }
+
 export default function Home() {
   return (
     <div className='flex flex-col items-center'>

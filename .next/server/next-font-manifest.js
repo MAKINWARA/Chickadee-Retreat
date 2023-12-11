@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/luisa/Desktop/MAKINCODE/Chickadee-Retreat/app/layout\":[\"static/media/155cae559bbd1a77-s.p.woff2\",\"static/media/4de1fea1a954a5b6-s.p.woff2\",\"static/media/6d664cce900333ee-s.p.woff2\",\"static/media/640ece80909a508b-s.p.woff2\",\"static/media/d5fafdc7bbd3315c-s.p.woff2\",\"static/media/e1c529c04de64b40-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{},\"appUsingSizeAdjust\":false,\"pagesUsingSizeAdjust\":false}"
