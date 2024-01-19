@@ -4,6 +4,7 @@ import React, { useEffect } from 'react'
 import PhotoSwipeLightbox from 'photoswipe/lightbox'
 import 'photoswipe/style.css'
 import styles from '../../styles/gallery.module.css'
+import Image from 'next/image'
 
 export default function SimpleGallery(props) {
   useEffect(() => {
@@ -36,9 +37,11 @@ export default function SimpleGallery(props) {
           rel='noreferrer'
           className={styles.gallery__image__container}
         >
-          <img
+          <Image
             className={styles.gallery__image}
             src={image.src}
+            width={image.width}
+            height={image.height}
             alt=''
           />
         </a>
