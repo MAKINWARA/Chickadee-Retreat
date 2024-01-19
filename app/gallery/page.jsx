@@ -12,6 +12,7 @@ const imagesThumbnails = [
     id: 3,
     thumbnail:
       '/thumbnail/A glass of wine and a cheese platter on a table beside a glowing fireplace.webp',
+    src: '/gallery/A glass of wine and a cheese platter on a table beside a glowing fireplace.webp',
     height: '551',
     width: '737',
     alt: 'A glass of wine and a cheese platter on a table beside a glowing fireplace'
@@ -20,6 +21,7 @@ const imagesThumbnails = [
     id: 2,
     thumbnail:
       '/thumbnail/A table with chairs placed in front of a window.webp',
+    src: '/gallery/A table with chairs placed in front of a window.webp',
     height: '794',
     width: '1191',
     alt: 'A table with chairs placed in front of a window'
@@ -27,6 +29,7 @@ const imagesThumbnails = [
   {
     id: 1,
     thumbnail: '/thumbnail/knitted hat over a coverlet.webp',
+    src: '/gallery/knitted hat over a coverlet.webp',
     height: '794',
     width: '1191',
     alt: 'Knitted hat over a coverlet'
@@ -34,6 +37,7 @@ const imagesThumbnails = [
   {
     id: 4,
     thumbnail: '/thumbnail/Two cups of tea on a table.webp',
+    src: '/gallery/Two cups of tea on a table.webp',
     height: '660',
     width: '429',
     alt: 'Two cups of tea on a table'
@@ -42,6 +46,7 @@ const imagesThumbnails = [
     id: 5,
     thumbnail:
       '/thumbnail/living room with a fireplace and a comfortable couch.webp',
+    src: '/gallery/living room with a fireplace and a comfortable couch.webp',
     height: '551',
     width: '737',
     alt: 'Living room with a fireplace and a comfortable couch'
@@ -49,6 +54,7 @@ const imagesThumbnails = [
   {
     id: 6,
     thumbnail: '/thumbnail/bird on a branch by person.webp',
+    src: '/gallery/bird on a branch by person.webp',
     height: '1005',
     width: '670',
     alt: 'Bird on a branch by person'
@@ -56,6 +62,7 @@ const imagesThumbnails = [
   {
     id: 7,
     thumbnail: '/thumbnail/A kitchen with stove, oven, sink, and window.webp',
+    src: '/gallery/A kitchen with stove, oven, sink, and window.webp',
     height: '535',
     width: '802',
     alt: 'A kitchen with stove, oven, sink, and window'
@@ -82,6 +89,8 @@ const imagesThumbnails = [
     id: 10,
     thumbnail:
       '/thumbnail/A cozy bedroom with a comfortable bed and a nightstand.webp',
+    src: '/gallery/A cozy bedroom with a comfortable bed and a nightstand.webp',
+
     height: '794',
     width: '1062',
     alt: 'A cozy bedroom with a comfortable bed and a nightstand'
