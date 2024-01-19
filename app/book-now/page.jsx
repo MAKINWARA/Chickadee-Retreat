@@ -34,7 +34,10 @@ export default function BookNow() {
                   <p className='my-10 whitespace-pre-wrap'>{book.amenities}</p>
                 </div>
               </div>
-              <a href={book.href}>
+              <a
+                href={book.href}
+                target='_blank'
+              >
                 <button
                   className={`bg-${book.buttonBackground} text-${book.buttonColor} m-[0_auto] text-base px-4 py-2`}
                 >
