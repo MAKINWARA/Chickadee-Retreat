@@ -6,7 +6,7 @@ export const bookDescription = [
     phrase:
       'Charming chalet-style cabin in a 4-season community for outdoor enthusiasts. Nestled in a quiet wooded area in the mountains of West Virginia.',
     description:
-      '4+ bedrooms, 10 beds, FREE WiFi for virtual work, comfy loft, cathedral ceiling, game room, fire pit, spacious yard for group games.',
+      '4+ bedrooms, 10 beds, EXCELLENT WiFi for virtual work, comfy loft, cathedral ceiling, game room, fire pit, spacious yard for group games.',
     amenities:
       'Walk to the lake for paddling, fishing, tennis, basketball, workout gym, indoor pool, golf & mini golf, cross country skiing, and more!',
     backgroundColor: 'green',
