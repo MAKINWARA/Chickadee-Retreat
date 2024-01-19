@@ -10,13 +10,13 @@ export const metadata = {
 const galleryImages = [
   {
     id: 3,
-    src: 'https://static.wixstatic.com/media/d6b9d4_27acbfc23d2149a2a52abd2b60bbdc95~mv2.jpeg/v1/fit/w_1423,h_551,q_90/d6b9d4_27acbfc23d2149a2a52abd2b60bbdc95~mv2.webp',
+    src: 'thumbnail/A glass of wine and a cheese platter on a table beside a glowing fireplace.webp',
     height: '551',
     width: '737'
   },
   {
     id: 2,
-    src: 'https://static.wixstatic.com/media/d6b9d4_c9e4ea3c8d3e43b8942963bfbc41198c~mv2.jpeg/v1/fit/w_3096,h_794,q_90/d6b9d4_c9e4ea3c8d3e43b8942963bfbc41198c~mv2.webp',
+    src: 'thumbnail/A table with chairs placed in front of a window.webp',
     height: '794',
     width: '1191'
   },
@@ -28,7 +28,7 @@ const galleryImages = [
   },
   {
     id: 4,
-    src: 'https://static.wixstatic.com/media/d6b9d4_3019323bb139456f910593c64d3f10bc~mv2.jpeg/v1/fit/w_1189,h_660,q_90/d6b9d4_3019323bb139456f910593c64d3f10bc~mv2.webp',
+    src: 'thumbnail/Two cups of tea on a table.webp',
     height: '660',
     width: '429'
   },
