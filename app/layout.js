@@ -4,6 +4,7 @@ import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 
 import { libre, lato, montserrat } from '../styles/fonts'
+import Image from 'next/image'
 // <<<<<<< forSeoWork
 // =======
 export const metadata = {
@@ -18,9 +19,11 @@ export default function RootLayout({ children }) {
       <body className={`${libre.variable} ${lato.variable}`}>
         <header className='flex flex-col gap-10 items-center pt-8 pb-8 bg-green'>
           <figure>
-            <img
+            <Image
               className='h-full w-[7rem]'
-              src='https://static.wixstatic.com/media/d6b9d4_d281e4af0380469ab979bc56252b10af~mv2.png/v1/fill/w_160,h_240,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Chickadee%20Retreat%20Oval%20Logo%20(2).png'
+              src='/icon.png'
+              width={200}
+              height={200}
               alt='logo'
             />
           </figure>

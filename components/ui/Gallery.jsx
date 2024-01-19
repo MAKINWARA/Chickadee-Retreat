@@ -39,7 +39,7 @@ export default function SimpleGallery(props) {
         >
           <Image
             className={styles.gallery__image}
-            src={image.src}
+            src={image.thumbnail}
             width={image.width}
             height={image.height}
             alt=''
