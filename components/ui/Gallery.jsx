@@ -3,7 +3,7 @@
 import React, { useEffect } from 'react'
 import PhotoSwipeLightbox from 'photoswipe/lightbox'
 import 'photoswipe/style.css'
-import styles from '@/styles/gallery.module.css'
+import styles from '../../styles/gallery.module.css'
 
 export default function SimpleGallery(props) {
   useEffect(() => {

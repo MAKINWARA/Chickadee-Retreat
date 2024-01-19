@@ -1,10 +1,11 @@
-import styles from '@/styles/gallery.module.css'
-import SimpleGallery from '@/components/ui/Gallery'
+import styles from '../../styles/gallery.module.css'
+import SimpleGallery from '../../components/ui/Gallery'
 
 export const metadata = {
   title: 'Gallery | Chickadee Retreat',
-  description: 'Explore exquisite art at Chickadee Chalet Gallery. Discover unique creations that captivate, inspire, and bring beauty to your world. Visit us today',
-  }
+  description:
+    'Explore exquisite art at Chickadee Chalet Gallery. Discover unique creations that captivate, inspire, and bring beauty to your world. Visit us today'
+}
 
 const galleryImages = [
   {

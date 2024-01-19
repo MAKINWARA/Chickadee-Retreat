@@ -1,4 +1,4 @@
-import styles from '@/styles/bookingCard.module.css'
+import styles from '../styles/bookingCard.module.css'
 
 const houses = [
   {

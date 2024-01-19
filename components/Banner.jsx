@@ -1,7 +1,7 @@
 'use client'
 
-import styles from '@/styles/banner.module.css'
-import { FadeInAnimation } from '@/utils/animations'
+import styles from '../styles/banner.module.css'
+import { FadeInAnimation } from '../utils/animations'
 import { RiDoubleQuotesL } from 'react-icons/ri'
 
 import { useState, useEffect, useRef } from 'react'

@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import './globals.css'
-import NavBar from '@/components/NavBar'
-import Footer from '@/components/Footer'
+import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 
-import { libre, lato, montserrat } from '@/styles/fonts'
+import { libre, lato, montserrat } from '../styles/fonts'
 // <<<<<<< forSeoWork
 // =======
 export const metadata = {

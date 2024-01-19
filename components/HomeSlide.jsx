@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import '@/styles/HomeSlide.css'
+import '../styles/HomeSlide.css'
 
 export default function HomeSlide({ images }) {
   return (

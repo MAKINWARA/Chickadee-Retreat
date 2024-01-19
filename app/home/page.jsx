@@ -1,13 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
-import HomeSlide from '@/components/HomeSlide'
-import { homeImages } from '@/mocks/home__images'
-import BookingCard from '@/components/BookingCard'
-import Banner from '@/components/Banner'
+import HomeSlide from '../../components/HomeSlide'
+import { homeImages } from '../../mocks/home__images'
+import BookingCard from '../../components/BookingCard'
+import Banner from '../../components/Banner'
 
 export const metadata = {
   title: 'Home | Chickadee Retreat',
-  description: 'Discover tranquility at Home Chickadee Retreat. Our cozy haven offers a perfect blend of comfort and nature. Book now for a rejuvenating escape!',
-  }
+  description:
+    'Discover tranquility at Home Chickadee Retreat. Our cozy haven offers a perfect blend of comfort and nature. Book now for a rejuvenating escape!'
+}
 
 export default function Home() {
   return (
