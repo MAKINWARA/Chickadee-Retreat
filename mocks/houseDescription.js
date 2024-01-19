@@ -8,7 +8,7 @@ export const bookDescription = [
     description:
       '4+ bedrooms, 10 beds, EXCELLENT WiFi for virtual work, comfy loft, cathedral ceiling, game room, fire pit, spacious yard for group games.',
     amenities:
-      'Walk to the lake for paddling, fishing, tennis, basketball, workout gym, indoor pool, golf & mini golf, cross country skiing, and more!',
+      'Walk to the lake for paddling, fishing, tennis, basketball, workout gym, indoor pool, golf & mini golf, cross country skiing, and more! Explore the perfect 4-season getaway at Alpine Lake Resort. Book your stay in a COZY CABIN and experience the tranquility of this Alpine retreat',
     backgroundColor: 'green',
     buttonText: 'Book Now',
     buttonColor: 'green',
@@ -25,7 +25,7 @@ export const bookDescription = [
     description:
       '1 queen bed, 24" HDTV, kitchen, washing machine and dryer, WiFi & parking on premises.',
     amenities:
-      '30 minute metro ride to the center of Washington, DC to enjoy the free Smithsonian Museums, monuments, site-seeing and international festivals.',
+      '30 minute metro ride to the center of Washington, DC to enjoy the free Smithsonian Museums, monuments, site-seeing and international festivals. Discover tranquility in our 1 BR suite near DC. Enjoy easy access to recreational parks. Book your stay for a perfect blend of comfort and nature',
     backgroundColor: 'white',
     buttonText: 'Book Now',
     buttonColor: 'white',
